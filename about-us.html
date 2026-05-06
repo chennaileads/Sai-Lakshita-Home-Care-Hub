@@ -20,13 +20,58 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     </head>  
      <style>
-   
+   body {
+    overflow-x: hidden;
+}
+
+/* Responsive images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Mobile logo size */
+@media (max-width: 768px) {
+    .main-logo,
+    .white-logo {
+        height: 60px !important;
+    }
+}
+
+/* Floating buttons responsive */
+@media (max-width: 768px) {
+    .floating-contact {
+        right: 15px;
+        bottom: 20px;
+    }
+
+    .contact-btn {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+}
+
+/* Footer text wrap */
+.footer-single-widget ul li a {
+    word-break: break-word;
+}
+
+/* Hide desktop menu on mobile */
+@media (max-width: 991px) {
+    .navbar-collapse {
+        display: none !important;
+    }
+}
 @media (max-width: 767px) {
   .header-top-bar {
     display: none !important;
   }
 }
-       
+  body{
+    overflow-x:hidden;
+}     
+
 /* .case-study-single-item-three .case-study-content {
     opacity: 1 !important;
     visibility: visible !important;
@@ -585,133 +630,99 @@
 
        
 
-        <!-- Start Footer Area -->
-        <div class="footer-area-three bg-img pt-120 mx-xl-4 rounded-4 mb-xl-4" style="background-image: url(assets/images/footer-bg.jpg);">
-            <div class="container mw-1685">
-                <div class="row g-4 pb-120" data-cues="slideInUp" data-duration="900">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-single-widget newsletter-form">
-                            <a href="index.html" class="logo d-inline-block">
-                                <img src="assets/images/logo3.png" alt="white-logo" style="height: 100px;">
+     <!-- Start Footer Area -->
+<div class="footer-area-three bg-img pt-120 mx-xl-4 rounded-4 mb-xl-4" 
+     style="background-image: url(assets/images/footer-bg.jpg);">
+    <div class="container mw-1685">
+
+        <div class="row g-4 pb-120">
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-single-widget newsletter-form">
+                    <a href="index.html" class="logo d-inline-block">
+                        <img src="assets/images/logo3.png" alt="logo" class="img-fluid" style="max-height:80px;">
+                    </a>
+                    <p>
+                        Sai Lakshita Home Care Hub provides compassionate and professional 
+                        healthcare services at home.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-single-widget">
+                    <h3>Quick Links</h3>
+                    <ul class="import-link list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-single-widget">
+                    <h3>Our Services</h3>
+                    <ul class="import-link list-unstyled">
+                        <li><a href="services.html">24/7 Nursing Care at Home</a></li>
+                        <li><a href="services.html">Nasogastric Tube Insertion And Feeding</a></li>
+                        <li><a href="services.html">Colostomy & Stoma Care</a></li>
+                        <li><a href="services.html">Administration Of Injections</a></li>
+                        <li><a href="services.html">Urinary Catheterization & Care</a></li>
+                        <li><a href="services.html">Bedsore Care</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="footer-single-widget">
+                    <h3>Get In Touch</h3>
+
+                    <ul class="list-unstyled info-list">
+                        <li>
+                            <strong>Location:</strong><br>
+                            365 Natesan Nagar, Virugambakkam, Chennai - 600092
+                        </li>
+
+                        <li>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:sailakshitahomecare@gmail.com">
+                                sailakshitahomecare@gmail.com
                             </a>
+                        </li>
 
-                            <p>Sai Lakshita Home Care Hub provides compassionate and professional healthcare services at home.</p>
-
-                           
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-single-widget d-xl-flex justify-content-center">
-                            <div>
-                                <h3>Quick Links</h3>
-
-                                <ul class="import-link p-0 m-0 list-unstyled">
-                                    <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="about-us.html">About Us</a>
-                                    </li>
-                                    <li>
-                                        <a href="services.html">Our Services</a>
-                                    </li>
-                                    <li>
-                                        <a href="gallery.html">Gallery</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact-us.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-single-widget">
-                            <h3>Our Services</h3>
-
-                            <ul class="import-link p-0 m-0 list-unstyled">
-                                <li>
-                                    <a href="services.html">24/7 Nursing Care at Home</a>
-                                </li>
-                                <li>
-                                    <a href="services.html">Nasogastric Tube Insertion And Feeding</a>
-                                </li>
-                                <li>
-                                    <a href="services.html">Colostomy & Stoma Care</a>
-                                </li>
-                                <li>
-                                    <a href="services.html">Administration Of Injections</a>
-                                </li>
-                                <li>
-                                    <a href="services.html">Urinary Catheterization & Care</a>
-                                </li>
-                                 <li>
-                                    <a href="services.html">Bedsore Care</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-single-widget">
-                            <h3>Get In Touch</h3>
-
-                            <ul class="p-0 m-0 list-unstyled info-list">
-                                <li class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <i class="ti ti-map-pin-filled"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <h6>Location</h6>
-                                        <p>365 Natesan Nagar, Virugambakkam, Chennai, Tamil Nadu 600092.</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <i class="ti ti-mail-filled"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <h6>Email</h6>
-                                        <a href="mailto:sailakshitahomecare@gmail.com">
-                                            <span class="__cf_email__" data-cfemail="5d3538312d1d323139382f32733e3230">sailakshitahomecare@gmail.com
-
-                                            </span></a>
-                                    </div>
-                                </li>
-                                <li class="d-flex">
-                                    <div class="flex-shrink-0">
-                                        <i class="ti ti-phone-filled"></i>
-                                    </div>
-                                    <div class="flex-grow-1">
-                                        <h6>Phone</h6>
-                                        <a href="tel:+918344839954">+91 83448 39954</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                        <li>
+                            <strong>Phone:</strong><br>
+                            <a href="tel:+918344839954">
+                                +91 83448 39954
+                            </a>
+                        </li>
+                    </ul>
                 </div>
-
-                <!-- Start CopyRight Area -->
-                <div class="copy-right-area rounded-bottom-4 bg-transparent pt-0">
-                   <div class="d-flex flex-wrap gap-10 justify-content-center justify-content-lg-between align-items-center border-top border-dark-border-color">
-    <p class="mb-0 text-white">
-        © <span id="year"></span> <span>Sai Lakshita Home Care Hub</span>. All Rights Reserved. 
-        Developed by <a href="https://chennaileads.com/" target="_blank" class="text-white">Chennai Leads</a>
-    </p>
-</div>
-
-<script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-                </div>
-                <!-- End CopyRight Area -->
             </div>
         </div>
-        <!-- End Footer Area -->
 
-        <!-- Start Back To Up Area -->
-		<button type="button" id="backtotop"> 
-			<i class="ti ti-arrow-narrow-up"></i>
+        <!-- Copyright -->
+        <div class="copy-right-area text-center border-top pt-3">
+            <p class="text-white mb-0">
+                © <span id="year"></span> Sai Lakshita Home Care Hub. 
+                All Rights Reserved. Developed by 
+                <a href="https://chennaileads.com/" target="_blank" class="text-white">
+                    Chennai Leads
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<!-- End Footer Area -->
+
+
+<!-- Back To Top Button -->
+<button type="button" id="backtotop">
+    <i class="ti ti-arrow-narrow-up"></i>
+</button>
+
      
          <script>
   const toggleBtn = document.getElementById("callToggle");
