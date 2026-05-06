@@ -26,33 +26,33 @@
     display: none !important;
   }
 }
-        /* Make content always visible */
-.case-study-single-item-three .case-study-content {
+       
+/* .case-study-single-item-three .case-study-content {
     opacity: 1 !important;
     visibility: visible !important;
     transform: translateY(0) !important;
 }
 
-/* Disable hover animation */
+
 .case-study-single-item-three:hover .case-study-content {
     opacity: 1 !important;
     transform: none !important;
 }
 
-/* Optional: make background darker for readability */
+
 .case-study-single-item-three::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.4); /* adjust darkness */
+    background: rgba(0, 0, 0, 0.4); 
     z-index: 1;
 }
 
-/* Keep text above overlay */
+
 .case-study-content {
     position: absolute;
     z-index: 2;
-}
+} */
 /* Floating Container */
 /* Floating Container */
 .floating-contact {
@@ -142,7 +142,7 @@
        
         <!-- End Preloader -->
     
-        <!-- Start Header Area -->
+              <!-- Start Header Area -->
         <div class="header-area bg-secondary style-three header-top-bar ">
             <div class="container mw-1685 ">
                <div class="row align-items-center gy-2 d-none d-md-flex">
@@ -179,7 +179,7 @@
                 <div class="d-flex align-items-center">
                     <a class="navbar-brand" href="index.html">
                         <img src="assets/images/logo3.png" class="main-logo" alt="logo" style="height: 100px;">
-                        <img src="assets/images/logo3.png" class="white-logo" alt="white-logo" style="height: 70px;">
+                        <img src="assets/images/logo3.png" class="white-logo" alt="white-logo" style="height: 100px;">
                     </a>
                 </div>
 
@@ -192,7 +192,7 @@
 
                     
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item dropdown">
                             <a class="nav-link active" href="about-us.html">
                                 About us
                             </a>
@@ -300,29 +300,9 @@
             </div>
         </div>
         <!-- End Mobile Navbar Area -->
+
       
-        <!-- Start Search Modal -->
-        <div class="modal fade src-modal" id="staticBackdrop" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content" style="background-color: rgba(0, 0, 0, 0.6);">
-                    <div class="modal-header border-0">
-                        <div class="modal-title"></div>
-                        <button type="button" class="btn-close bg-primary text-white opacity-100" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex justify-content-center align-items-center">
-                        <form class="w-100" style="max-width: 500px;">
-                            <div class="position-relative">
-                                <input id="searchInput" type="text" class="form-control bg-gray border-0" placeholder="Search">
-                                <button class="border-0 bg-primary d-flex justify-content-center align-items-center position-absolute top-50 end-0 translate-middle-y m-2 my-0 rounded-3" type="button" style="width: 40px; height: 40px;">
-                                    <i class="ti ti-search text-white"></i>
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Search Modal -->
+    
         <!-- Start Page Banner Area -->
         <div class="page-banner-area bg-img ptb-120 position-relative" style="background-image: url(assets/images/page-bg1.jpg);">
             <div class="container mw-1685">
@@ -604,7 +584,8 @@
 <!-- End Why Choose Us Area -->
 
        
-  <!-- Start Footer Area -->
+
+        <!-- Start Footer Area -->
         <div class="footer-area-three bg-img pt-120 mx-xl-4 rounded-4 mb-xl-4" style="background-image: url(assets/images/footer-bg.jpg);">
             <div class="container mw-1685">
                 <div class="row g-4 pb-120" data-cues="slideInUp" data-duration="900">
@@ -731,8 +712,6 @@
         <!-- Start Back To Up Area -->
 		<button type="button" id="backtotop"> 
 			<i class="ti ti-arrow-narrow-up"></i>
-		</button>
-		<!-- End Back To Up Area -->
      
          <script>
   const toggleBtn = document.getElementById("callToggle");
