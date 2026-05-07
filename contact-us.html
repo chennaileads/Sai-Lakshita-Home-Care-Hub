@@ -1,51 +1,62 @@
+
 <!DOCTYPE html>
 <html lang="zxx">
-
-<!-- Mirrored from html.awaikenthemes.com/lenity/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 May 2026 11:44:06 GMT -->
+    
+<!-- Mirrored from templates.hibootstrap.com/oldero/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 May 2026 04:50:56 GMT -->
 <head>
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-	<meta name="description" content="">
-	<meta name="keywords" content="">
-	<meta name="author" content="">
-	<!-- Page Title -->
-    <title>Sri Maha Siva Sukshama Jyothishaya Center</title>
-	<!-- Favicon Icon -->
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-	<!-- Google Fonts Css-->
-	<link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;family=Onest:wght@100..900&amp;display=swap" rel="stylesheet">
-	<!-- Bootstrap Css -->
-	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<!-- SlickNav Css -->
-	<link href="css/slicknav.min.css" rel="stylesheet">
-	<!-- Swiper Css -->
-	<link rel="stylesheet" href="css/swiper-bundle.min.css">
-	<!-- Font Awesome Icon Css-->
-	<link href="css/all.min.css" rel="stylesheet" media="screen">
-	<!-- Animated Css -->
-	<link href="css/animate.css" rel="stylesheet">
-    <!-- Magnific Popup Core Css File -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Mouse Cursor Css File -->
-	<link rel="stylesheet" href="css/mousecursor.css">
-	<!-- Main Custom Css -->
-	<link href="css/custom.css" rel="stylesheet" media="screen">
-</head>
-<style>
-    .contact-info-box {
-    gap: 30px;
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Links Of CSS File -->
+		<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="assets/css/scrollCue.css">
+        <link rel="stylesheet" href="assets/css/tabler-icons.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="assets/images/favicon.ico">
+		<!-- Title -->
+		<title>SAI LAKSHITA HOME CARE HUB</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head> 
+     <style>
+   
+@media (max-width: 767px) {
+  .header-top-bar {
+    display: none !important;
+  }
+}
+        /* Make content always visible */
+.case-study-single-item-three .case-study-content {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateY(0) !important;
 }
 
-.contact-info-item {
-    flex: 1;
-    min-width: 280px;
+/* Disable hover animation */
+.case-study-single-item-three:hover .case-study-content {
+    opacity: 1 !important;
+    transform: none !important;
 }
 
-    .floating-contact {
+/* Optional: make background darker for readability */
+.case-study-single-item-three::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); /* adjust darkness */
+    z-index: 1;
+}
+
+/* Keep text above overlay */
+.case-study-content {
+    position: absolute;
+    z-index: 2;
+}
+/* Floating Container */
+/* Floating Container */
+.floating-contact {
   position: fixed;
   right: 20px;
   bottom: 30px;
@@ -113,590 +124,448 @@
 .call {
   animation-delay: 1.5s;
 }
-
-/* ========== STICKY LANGUAGE BUTTONS WITH TEXT ========== */
-.floating-language {
-  position: fixed;
-  left: 20px;
-  bottom: 30px;
-  z-index: 9999;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.lang-btn {
-  background: #2c3e50;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 30px;
-  color: white;
-  font-weight: 600;
-  font-size: 13px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-family: 'Inter', sans-serif;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  animation: floatY 3s ease-in-out infinite;
-}
-
-.lang-btn:hover {
-  transform: scale(1.05);
-  background: #1a252f;
-}
-
-.lang-btn.active {
-  background: #f5a623;
-  color: #fff;
-}
-
-.lang-flag {
-  font-size: 18px;
-}
-
-/* Different animation delays */
-.lang-btn:nth-child(1) { animation-delay: 0s; }
-.lang-btn:nth-child(2) { animation-delay: 0.1s; }
-.lang-btn:nth-child(3) { animation-delay: 0.2s; }
-.lang-btn:nth-child(4) { animation-delay: 0.3s; }
-.lang-btn:nth-child(5) { animation-delay: 0.4s; }
-
-@media (max-width: 768px) {
-  .floating-language {
-    left: 8px;
-    bottom: 20px;
-    gap: 6px;
-  }
-  .lang-btn {
-    padding: 5px 10px;
-    font-size: 10px;
-  }
-  .lang-flag {
-    font-size: 14px;
-  }
-}
-</style>
-<body>
-
-   <div class="floating-contact">
+    </style>
+    <body>
+         <div class="floating-contact">
 
   <!-- WhatsApp -->
-  <a href="https://wa.me/919052732598" target="_blank" class="contact-btn whatsapp">
+  <a href="https://wa.me/918344839954" target="_blank" class="contact-btn whatsapp">
     <i class="fab fa-whatsapp"></i>
   </a>
 
   <!-- Call -->
-  <a href="tel:+919961343298" class="contact-btn call">
+  <a href="tel:+918344839954" class="contact-btn call">
     <i class="fas fa-phone"></i>
   </a>
 
 </div>
+        <!-- Start Preloader -->
+       
+        <!-- End Preloader -->
+    
+        <!-- Start Header Area -->
+        <div class="header-area bg-secondary style-three header-top-bar ">
+            <div class="container mw-1685 ">
+               <div class="row align-items-center gy-2 d-none d-md-flex">
+    <div class="col-lg-8">
+        <ul class="d-flex flex-wrap justify-content-center justify-content-lg-start flex-md-nowrap align-items-center p-0 m-0 list-unstyled header-info">
+            <li class="d-flex align-items-center gap-10">
+                <i class="ti ti-map-pin text-warning"></i>
+                <span class="text-white">Location: 365 Natesan Nagar, Virugambakkam, Chennai, 600092</span>
+            </li>
+            <li class="d-flex align-items-center gap-10">
+                <i class="ti ti-phone-filled text-warning"></i>
+                <span class="text-white">Mobile Number: +91 8344839954</span>
+            </li>
+        </ul>
+    </div>
 
-<!-- ========== STICKY LANGUAGE BUTTONS (LEFT SIDE) ========== -->
-<div class="floating-language">
-  <button class="lang-btn" data-lang="en">
-    <span class="lang-flag">🇬🇧</span>
-    <span>ENGLISH</span>
-  </button>
-  <button class="lang-btn" data-lang="ta">
-    <span class="lang-flag">🇮🇳</span>
-    <span>தமிழ்</span>
-  </button>
-  <button class="lang-btn" data-lang="hi">
-    <span class="lang-flag">🇮🇳</span>
-    <span>हिन्दी</span>
-  </button>
-  <button class="lang-btn" data-lang="kn">
-    <span class="lang-flag">🇮🇳</span>
-    <span>ಕನ್ನಡ</span>
-  </button>
-  <button class="lang-btn" data-lang="te">
-    <span class="lang-flag">🇮🇳</span>
-    <span>తెలుగు</span>
-  </button>
+    <div class="col-lg-4">
+        <div class="d-flex link-social-wrap align-items-center justify-content-center justify-content-lg-end">
+            <div class="social-link d-flex align-items-center">
+                <a href="https://www.instagram.com/sailakshita_homecare?igsh=b290eXpxa2Z6MmRx" class="border-white text-white" target="_blank">
+                    <i class="ti ti-brand-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
+            </div>
+        </div>
+        <!-- End Header Area -->
 
- 
-    <!-- Header Start -->
-	<header class="main-header">
-		<div class="header-sticky">
-			<nav class="navbar navbar-expand-lg">
-				<div class="container">
-					<!-- Logo Start -->
-					<a class="navbar-brand" href="index.html">
-						<img src="images/logo1.png" alt="Logo" style="height: 100px;">
-					</a>
-					<!-- Logo End -->
+        <!-- Start Navbar Area --> 
+        <nav class="navbar navbar-expand-lg border-0  top-0" id="navbar">
+            <div class="container mw-1685">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/logo3.png" class="main-logo" alt="logo" style="height: 100px;">
+                        <img src="assets/images/logo3.png" class="white-logo" alt="white-logo" style="height: 70px;">
+                    </a>
+                </div>
 
-					<!-- Main Menu Start -->
-					<div class="collapse navbar-collapse main-menu">
-                        <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item "><a class="nav-link trans-text" data-key="nav_home" href="index.html">Home</a></li>                                
-                                <li class="nav-item"><a class="nav-link trans-text" data-key="nav_about" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link trans-text" data-key="nav_services" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link trans-text" data-key="nav_gallery" href="image-gallery.html">Gallery</a></li>
-                                <li class="nav-item"><a class="nav-link trans-text" data-key="nav_contact" href="contact.html">Contact Us</a></li>                         
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link " href="index.html" >
+                                Home
+                            </a>
+
+                    
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="about-us.html">
+                                About us
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="services.html" >
+                               Our Services
+                            </a>
+                        </li>
+                        
+                       <li class="nav-item ">
+                            <a class="nav-link " href="gallery.html" >
+                              Gallery
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link " href="contact-us.html">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="others-options d-flex align-items-center">
+                    <div class="gap-40 d-flex">
+                        <!-- <button class="bg-transparent border-0 p-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <img src="assets/images/icon-grid.svg" alt="icon-grid">
+                        </button> -->
+                        <!-- <button class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <img src="assets/images/icon-search2.svg" alt="icon-search2">
+                        </button> -->
+                    </div>
+                    <a href="contact-us.html" class="default-btn">
+                        <div class="d-flex align-items-center gap-10">
+                            <span class="d-none d-sm-inline-block">Book appointment</span>
+                            <img src="assets/images/right-white.svg" alt="right-white">
+                        </div>
+                    </a>
+                    <a class="navbar-toggler" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                        <span class="burger-menu">
+                            <span class="top-bar"></span>
+                            <span class="middle-bar"></span>
+                            <span class="bottom-bar"></span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar Area -->
+
+        <!-- Start Mobile Navbar Area -->
+        <div class="mobile-navbar offcanvas offcanvas-end border-0" tabindex="-1" id="offcanvasExample">
+            <div class="offcanvas-header">
+                <div class="">
+                    <a href="index.html" class="logo d-inline-block">
+                        <img src="assets/images/logo3.png" alt="logo" style="height: 80px;">
+                    </a>
+                    <a href="index.html" class="logo d-none">
+                        <img src="assets/images/logo3.png" alt="logo" style="height: 80px;">
+                    </a>
+                </div>
+
+                <button type="button" class="btn-close opacity-1" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="ti ti-x"></i>
+                </button>
+            </div>
+
+            <div class="offcanvas-body">
+                <ul class="mobile-menu">
+                    <li class="mobile-menu-list without-icon border-bottom ">
+                        <a href="index.html">
+                            Home
+                        </a>
+
+                     
+                    </li>
+
+                    <li class="mobile-menu-list without-icon border-bottom">
+                        <a href="about-us.html" class="nav-link">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li class="mobile-menu-list without-icon border-bottom">
+                        <a href="services.html" class="nav-link">
+                            Services
+                        </a>
+                    </li>
+  <li class="mobile-menu-list without-icon border-bottom">
+                        <a href="gallery.html" class="nav-link">
+                         Gallery
+                        </a>
+                    </li>
+
+
+                  
+
+                   
+                    <li class="mobile-menu-list without-icon border-bottom">
+                        <a href="contact-us.html" class="nav-link">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Mobile Navbar Area -->
+        <!-- Start Search Modal -->
+        <div class="modal fade src-modal" id="staticBackdrop" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content" style="background-color: rgba(0, 0, 0, 0.6);">
+                    <div class="modal-header border-0">
+                        <div class="modal-title"></div>
+                        <button type="button" class="btn-close bg-primary text-white opacity-100" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex justify-content-center align-items-center">
+                        <form class="w-100" style="max-width: 500px;">
+                            <div class="position-relative">
+                                <input id="searchInput" type="text" class="form-control bg-gray border-0" placeholder="Search">
+                                <button class="border-0 bg-primary d-flex justify-content-center align-items-center position-absolute top-50 end-0 translate-middle-y m-2 my-0 rounded-3" type="button" style="width: 40px; height: 40px;">
+                                    <i class="ti ti-search text-white"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Search Modal -->
+
+        <!-- Start Page Banner Area -->
+        <div class="page-banner-area bg-img ptb-120 position-relative" style="background-image: url(assets/images/page-bg17.jpg);">
+            <div class="container mw-1685">
+                <div class="page-banner-content text-center">
+                    <h2 class="main-title mx-auto text-white">Contact Us</h2>
+                    <ul class="p-0 m-0 list-unstyled d-flex align-items-center justify-content-center">
+                        <li>
+                            <a href="index.html" class="text-decoration-none">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            Contact Us
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Banner Area -->
+
+        <!-- Start Contact Us Area -->
+        <div class="contact-us-area ptb-120">
+            <div class="container mw-1685">
+                <div class="row g-4 align-items-center" data-cues="slideInUp" data-duration="900">
+                   <div class="col-lg-6">
+    <div class="contact-us-form bg-img border p-4 p-lg-5 rounded-4">
+        <h3 class="mt-0">Book Home Care Service</h3>
+        <p>Schedule trusted and professional healthcare services at your doorstep. We ensure comfort, care, and timely support for every patient.</p>
+
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <input type="text" class="form-control bg-f2f3f5" placeholder="Patient / Full Name">
+            </div>
+            <div class="col-lg-6">
+                <input type="email" class="form-control bg-f2f3f5" placeholder="Email Address">
+            </div>
+            <div class="col-lg-6">
+                <input type="number" class="form-control bg-f2f3f5" placeholder="Phone Number">
+            </div>
+            <div class="col-lg-6">
+                <input type="text" class="form-control bg-f2f3f5" placeholder="Service Required">
+            </div>
+            <div class="col-lg-12">
+                <textarea rows="5" class="form-control bg-f2f3f5" placeholder="Describe patient condition or service needs"></textarea>
+            </div>
+            <div class="col-lg-12">
+                <button type="submit" class="default-btn">
+                    <span class="d-flex gap-10 align-items-center justify-content-center">
+                        <span>Book Appointment</span>
+                        <img src="assets/images/right-white.svg" alt="right-white">
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+                  <div class="col-lg-6">
+    <div class="contact-us-content position-relative">
+        <span class="top-title mb-2 mt-0">GET IN TOUCH</span>
+        <h2 class="main-title">We’re Here to Support Your <span class="word-mark">Health & Care Needs</span></h2>
+        <p>At Sai Lakshita Home Care Hub, we provide compassionate and reliable home healthcare services tailored to every patient. Our experienced team ensures safety, comfort, and personalized attention—helping individuals recover and live better in the comfort of their homes.</p>
+
+        <h3>Service Availability</h3>
+
+        <ul class="p-0 m-0 list-unstyled header-info">
+            <li class="d-flex align-items-center gap-10">
+                <i class="ti ti-map-pin"></i>
+                <span>Address: 365 Natesan Nagar, Virugambakkam, Chennai, Tamil Nadu 600092</span>
+            </li>
+            <li class="d-flex align-items-center gap-10">
+                <i class="ti ti-phone-call"></i>
+                <span>Phone: +91 83448 39954</span>
+            </li>
+            <li class="d-flex align-items-center gap-10">
+                <i class="ti ti-mail"></i>
+                <span>Email: sailakshitahomecare@gmail.com</span>
+            </li>
+            <li class="d-flex align-items-center gap-10">
+                <i class="ti ti-clock"></i>
+                <span>Available: 24/7 Home Care Services</span>
+            </li>
+
+            <li class="d-flex align-items-center gap-10 social-link">
+                <span>Follow Us:</span>
+                <a href="https://www.instagram.com/sailakshita_homecare?igsh=b290eXpxa2Z6MmRx" target="_blank" class="text-decoration-none">
+                    <i class="ti ti-brand-instagram"></i>
+                </a>
+            </li>
+        </ul>
+
+        <img src="assets/images/star3.png" class="position-absolute bottom-0 end-0 d-none d-lg-inline-block" alt="star3">
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+        <!-- End Contact Us Area -->
+
+        <div class="map-area pb-120">
+            <div class="container mw-1685">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.789103224026!2d80.1969215!3d13.049092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267e05b2b1bb1%3A0x42f3016a33a0d555!2sSai%20Lakshita%20Home%20Care%20Hub!5e0!3m2!1sen!2sin!4v1777702633280!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+        </div>
+
+       <!-- Start Footer Area -->
+        <div class="footer-area-three bg-img pt-120 mx-xl-4 rounded-4 mb-xl-4" style="background-image: url(assets/images/footer-bg.jpg);">
+            <div class="container mw-1685">
+                <div class="row g-4 pb-120" data-cues="slideInUp" data-duration="900">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-single-widget newsletter-form">
+                            <a href="index.html" class="logo d-inline-block">
+                                <img src="assets/images/logo3.png" alt="white-logo" style="height: 100px;">
+                            </a>
+
+                            <p>Sai Lakshita Home Care Hub provides compassionate and professional healthcare services at home.</p>
+
+                           
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-single-widget d-xl-flex justify-content-center">
+                            <div>
+                                <h3>Quick Links</h3>
+
+                                <ul class="import-link p-0 m-0 list-unstyled">
+                                    <li>
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="about-us.html">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="services.html">Our Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="gallery.html">Gallery</a>
+                                    </li>
+                                    <li>
+                                        <a href="contact-us.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-single-widget">
+                            <h3>Our Services</h3>
+
+                            <ul class="import-link p-0 m-0 list-unstyled">
+                                <li>
+                                    <a href="services.html">24/7 Nursing Care at Home</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">Nasogastric Tube Insertion And Feeding</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">Colostomy & Stoma Care</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">Administration Of Injections</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">Urinary Catheterization & Care</a>
+                                </li>
+                                 <li>
+                                    <a href="services.html">Bedsore Care</a>
+                                </li>
                             </ul>
                         </div>
-                        <!-- Contact Now Box Start -->
-                      
-                        <!-- Contact Now Box End -->
-					</div>
-					<!-- Main Menu End -->
-					<div class="navbar-toggle"></div>
-				</div>
-			</nav>
-			<div class="responsive-menu"></div>
-		</div>
-	</header>
-	<!-- Header End -->
-
-    <!-- Page Header Start -->
-    <div class="page-header parallaxie">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <!-- Page Header Box Start -->
-                    <div class="page-header-box">
-                        <h1 class="text-anime-style-2" data-cursor="-opaque"><span class="trans-text" data-key="contact_span">Contact</span> <span class="trans-text" data-key="contact_us_text">us</span></h1>
-                        <nav class="wow fadeInUp">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.html" class="trans-text" data-key="home_breadcrumb">home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page"><span class="trans-text" data-key="contact_breadcrumb">contact us</span></li>
-                            </ol>
-                        </nav>
                     </div>
-                    <!-- Page Header Box End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Page Header End -->
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="footer-single-widget">
+                            <h3>Get In Touch</h3>
 
-    <!-- Page Contact Us Start -->
-    <div class="page-contact-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Contact Info Box Start -->
-                    <div class="contact-info-box d-flex flex-wrap justify-content-between">
-                        <!-- Contact Info Item Start -->
-                        <div class="contact-info-item wow fadeInUp d-flex align-items-start mb-4">
-                            <div class="icon-box me-3">
-                                <img src="images/icon-phone-primary.svg" alt="">
-                            </div>
-                            <div class="contact-info-content">
-                                <h3 class="trans-text" data-key="contact_heading">contact us</h3>
-                                <p><a href="tel:+919052732598">+91 90527 32598</a></p>
-                                <p><a href="tel:+919961343298">+91 99613 43298</a></p>
-                            </div>
-                        </div>
-                        <!-- Contact Info Item End -->
-
-                        <!-- Contact Info Item Start -->
-                        <div class="contact-info-item wow fadeInUp d-flex align-items-start mb-4" data-wow-delay="0.4s">
-                            <div class="icon-box me-3">
-                                <img src="images/icon-location.svg" alt="">
-                            </div>
-                            <div class="contact-info-content">
-                                <h3 class="trans-text" data-key="location_heading">location</h3>
-                                <p class="trans-text" data-key="address_text">MIG-5 Ground Floor 6th Cross Teachers Colony Hosur</p>
-                            </div>
-                        </div>
-                        <!-- Contact Info Item End -->
-                    </div>
-                    <!-- Contact Info Box End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Page Contact Us End -->
-
-    <!-- Contact Form Section Start -->
-    <div class="contact-form-section">
-        <div class="container-fluid">
-            <div class="row no-gutters">
-                <div class="col-lg-6 order-lg-1 order-2">
-                    <!-- Google Map Start -->
-                    <div class="google-map-iframe">
-<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d249072.36441349646!2d77.78117187956404!3d12.729354501983648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMIG-5%20Ground%20Floor%206th%20Cross%20Teachers%20Colony%20Hosur!5e0!3m2!1sen!2sin!4v1778069347348!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
-                    <!-- Google Map End -->
-                </div>
-
-              <div class="col-lg-6 order-lg-2 order-1">
-    <!-- Contact Form Start -->
-    <div class="contact-form-box">
-        
-        <!-- Section Title Start -->
-        <div class="section-title">
-            <h3 class="wow fadeInUp trans-text" data-key="reach_us">Reach Us</h3>
-            <h2 class="text-anime-style-2" data-cursor="-opaque trans-text" data-key="connect_title">
-                Connect for Guidance & Consultation
-            </h2>
-        </div>
-        <!-- Section Title End -->
-
-        <div class="contact-form">
-            <form id="contactForm" action="#" method="POST" data-toggle="validator" class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="row">                                
-
-                    <div class="form-group col-md-6 mb-4">
-                        <input type="text" name="fname" class="form-control" id="fname" data-placeholder-key="first_name" placeholder="Your First Name" required>
-                        <div class="help-block with-errors"></div>
-                    </div>
-
-                    <div class="form-group col-md-6 mb-4">
-                        <input type="text" name="lname" class="form-control" id="lname" data-placeholder-key="last_name" placeholder="Your Last Name" required>
-                        <div class="help-block with-errors"></div>
-                    </div>
-
-                    <div class="form-group col-md-12 mb-4">
-                        <input type="email" name="email" class="form-control" id="email" data-placeholder-key="email" placeholder="Your Email Address" required>
-                        <div class="help-block with-errors"></div>
-                    </div>
-
-                    <div class="form-group col-md-12 mb-4">
-                        <input type="text" name="phone" class="form-control" id="phone" data-placeholder-key="phone" placeholder="Your Contact Number" required>
-                        <div class="help-block with-errors"></div>
-                    </div>
-
-                    <div class="form-group col-md-12 mb-5">
-                        <textarea name="message" class="form-control" id="message" rows="4" data-placeholder-key="message" placeholder="Share your concern or query..."></textarea>
-                        <div class="help-block with-errors"></div>
-                    </div>
-
-                    <div class="col-md-12">
-                        <button type="submit" class="btn-default">
-                            <span class="trans-text" data-key="submit_btn">Request Consultation</span>
-                        </button>
-                        <div id="msgSubmit" class="h3 hidden"></div>
-                    </div>
-
-                </div>
-            </form>
-        </div>
-    </div>
-    <!-- Contact Form End -->
-</div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact Form Section End -->
-
-    <!-- Main Footer Section Start -->
-    <footer class="main-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Main Footer Box Start -->
-                    <div class="main-footer-box">
-                        <!-- Footer About Start -->
-                        <div class="footer-about">
-                            <!-- Footer Logo Start -->
-                            <div class="footer-logo">
-                                <img src="images/logo1.png" alt="" >
-                            </div>
-                            <!-- Footer Logo End -->
-                            
-                            <!-- Footer Contact Detail Start -->
-                            <div class="footer-contact-detail">
-                                <div class="footer-contact-item">
-                                    <p class="trans-text" data-key="mobile_label">Mobile</p>
-                                    <h3><a href="tel:+919052732598">+91 90527 32598</a></h3>
-                                    <h3><a href="tel:+919961343298">+91 99613 43298</a></h3>
-                                </div>
-                                
-                                <div class="footer-contact-item">
-                                    <p class="trans-text" data-key="location_label">Location</p>
-                                    <h3><a href="#" class="trans-text" data-key="footer_address">MIG-5 Ground Floor 6th Cross Teachers Colony Hosur</a></h3>
-                                </div>
-                            </div>
-                            <!-- Footer Contact Detail End -->
-                            
-                            <!-- Footer Social Links Start -->
-                            <div class="footer-social-links">
-                                <h3 class="trans-text" data-key="follow_us">Follow on</h3>
-                                <ul>
-                                    
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>                                    								
-                                </ul>
-                            </div>
-                            <!-- Footer Social Links End -->
-                        </div>
-                        <!-- Footer About End -->
-
-                        <!-- Footer Links Box Start -->
-                        <div class="footer-links-box">
-                            <!-- Newsletter Form Start -->
-                            <!-- <div class="newsletter-form">
-                                <form id="newsletterForm" action="#" method="POST">
-                                    <div class="form-group">
-                                        <input type="email" name="email" class="form-control" id="mail" placeholder="Enter Your Email" required="">
-                                        <button type="submit" class="newsletter-btn"><i class="fa-regular fa-paper-plane"></i></button>
+                            <ul class="p-0 m-0 list-unstyled info-list">
+                                <li class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i class="ti ti-map-pin-filled"></i>
                                     </div>
-                                </form>
-                            </div> -->
-                            <!-- Newsletter Form End -->
+                                    <div class="flex-grow-1">
+                                        <h6>Location</h6>
+                                        <p>365 Natesan Nagar, Virugambakkam, Chennai, Tamil Nadu 600092.</p>
+                                    </div>
+                                </li>
+                                <li class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i class="ti ti-mail-filled"></i>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <h6>Email</h6>
+                                        <a href="mailto:sailakshitahomecare@gmail.com">
+                                            <span class="__cf_email__" data-cfemail="5d3538312d1d323139382f32733e3230">sailakshitahomecare@gmail.com
 
-                            <!-- Footer Links Start -->
-                            <div class="footer-links">
-                                <h3 class="trans-text" data-key="quick_link">Quick link</h3>
-                                <ul>
-                                    <li><a href="index.html" class="trans-text" data-key="nav_home">home</a></li>
-                                    <li><a href="about.html" class="trans-text" data-key="nav_about">About us</a></li>
-                                    <li><a href="services.html" class="trans-text" data-key="nav_services">services</a></li>
-                                    <li><a href="image-gallery.html" class="trans-text" data-key="nav_gallery">Gallery</a></li>
-                                    <li><a href="contact.html" class="trans-text" data-key="nav_contact">Contact Us</a></li>
-                                </ul>
-                            </div>
-                            <!-- Footer Links End -->
-                            
-                            <!-- Footer Links Start -->
-                            <div class="footer-links footer-service-links">
-                                <h3 class="trans-text" data-key="our_services">Our Services</h3>
-                                <ul>
-                                    <li><a href="services.html" class="trans-text" data-key="serv1">Generalized Report</a></li>
-                                    <li><a href="services.html" class="trans-text" data-key="serv2">Family & Finance</a></li>
-                                    <li><a href="services.html" class="trans-text" data-key="serv3">Siblings & Courage</a></li>
-                                    <li><a href="services.html" class="trans-text" data-key="serv4">Mother & Comforts Chapter</a></li>
-                                    <li><a href="services.html" class="trans-text" data-key="serv5">Debts, Disease & Litigation</a></li>
-                                    <li><a href="services.html" class="trans-text" data-key="serv6">Marriage</a></li>
-                                    <li><a href="services.html" class="trans-text" data-key="serv7">Longevity</a></li>
-                                    <li><a href="services.html" class="trans-text" data-key="serv8">Spiritual Attainment & Fortunes</a></li>
-                                    <li><a href="services.html" class="trans-text" data-key="serv9">Profession</a></li>
-                                    <li><a href="services.html" class="trans-text" data-key="serv10">Expenditure & Losses</a></li>
-                                </ul>
-                            </div>
-                            <!-- Footer Links End -->
-                            
-                            
+                                            </span></a>
+                                    </div>
+                                </li>
+                                <li class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <i class="ti ti-phone-filled"></i>
+                                    </div>
+                                    <div class="flex-grow-1">
+                                        <h6>Phone</h6>
+                                        <a href="tel:+918344839954">+91 83448 39954</a>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        <!-- Footer Links Box End -->
                     </div>
-                    <!-- Main Footer Box End -->
                 </div>
-            </div>
-        </div>
 
-        <!-- Footer Copyright Start -->
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- Copyright Text Start -->
-                        <div class="copyright-text">
-    <p>
-        Copyright © <script>document.write(new Date().getFullYear())</script> 
-        Sri Maha Siva Sukshama Jyothishaya Center. All Rights Reserved. 
-        Developed by <a href="https://chennaileads.com" target="_blank">chennaileads.com</a>
+                <!-- Start CopyRight Area -->
+                <div class="copy-right-area rounded-bottom-4 bg-transparent pt-0">
+                   <div class="d-flex flex-wrap gap-10 justify-content-center justify-content-lg-between align-items-center border-top border-dark-border-color">
+    <p class="mb-0 text-white">
+        © <span id="year"></span> <span>Sai Lakshita Home Care Hub</span>. All Rights Reserved. 
+        Developed by <a href="https://chennaileads.com/" target="_blank" class="text-white">Chennai Leads</a>
     </p>
 </div>
-                        <!-- Copyright Text End -->
-                    </div>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
                 </div>
+                <!-- End CopyRight Area -->
             </div>
         </div>
-        <!-- Footer Copyright End -->
-    </footer>
-    <!-- Main Footer Section End -->
+        <!-- End Footer Area -->
 
-    <!-- Jquery Library File -->
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <!-- Bootstrap js file -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Validator js file -->
-    <script src="js/validator.min.js"></script>
-    <!-- SlickNav js file -->
-    <script src="js/jquery.slicknav.js"></script>
-    <!-- Swiper js file -->
-    <script src="js/swiper-bundle.min.js"></script>
-    <!-- Counter js file -->
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <!-- Isotop js file -->
-	<script src="js/isotope.min.js"></script>
-    <!-- Magnific js file -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <!-- SmoothScroll -->
-    <script src="js/SmoothScroll.js"></script>
-    <!-- Parallax js -->
-    <script src="js/parallaxie.js"></script>
-    <!-- MagicCursor js file -->
-    <script src="js/gsap.min.js"></script>
-    <script src="js/magiccursor.js"></script>
-    <!-- Text Effect js file -->
-    <script src="js/SplitText.js"></script>
-    <script src="js/ScrollTrigger.min.js"></script>
-    <!-- YTPlayer js File -->
-    <script src="js/jquery.mb.YTPlayer.min.js"></script>
-    <!-- Wow js file -->
-    <script src="js/wow.min.js"></script>
-    <!-- Main Custom js file -->
-    <script src="js/function.js"></script>
-    
-    <!-- ========== WORKING MANUAL TRANSLATION SCRIPT ========== -->
-    <script>
-    // Complete translations for 5 languages - 100% WORKING
-    const translations = {
-        en: {
-            contact_span: "Contact", contact_us_text: "us",
-            home_breadcrumb: "home", contact_breadcrumb: "contact us",
-            contact_heading: "contact us", location_heading: "location",
-            address_text: "MIG-5 Ground Floor, 6th Cross, Teachers Colony, Hosur",
-            reach_us: "Reach Us", connect_title: "Connect for Guidance & Consultation",
-            first_name: "Your First Name", last_name: "Your Last Name",
-            email: "Your Email Address", phone: "Your Contact Number",
-            message: "Share your concern or query...", submit_btn: "Request Consultation",
-            mobile_label: "Mobile", location_label: "Location",
-            footer_address: "MIG-5 Ground Floor, 6th Cross, Teachers Colony, Hosur",
-            follow_us: "Follow on", quick_link: "Quick link", our_services: "Our Services",
-            nav_home: "home", nav_about: "About us", nav_services: "services",
-            nav_gallery: "Gallery", nav_contact: "Contact Us",
-            serv1: "Generalized Report", serv2: "Family & Finance",
-            serv3: "Siblings & Courage", serv4: "Mother & Comforts Chapter",
-            serv5: "Debts, Disease & Litigation", serv6: "Marriage",
-            serv7: "Longevity", serv8: "Spiritual Attainment & Fortunes",
-            serv9: "Profession", serv10: "Expenditure & Losses"
-        },
-        ta: {
-            contact_span: "தொடர்பு", contact_us_text: "கொள்ளுங்கள்",
-            home_breadcrumb: "முகப்பு", contact_breadcrumb: "தொடர்பு கொள்ளுங்கள்",
-            contact_heading: "தொடர்பு கொள்ளுங்கள்", location_heading: "இருப்பிடம்",
-            address_text: "MIG-5 தரை தளம், 6வது குறுக்கு சாலை, ஆசிரியர் காலனி, ஹோசூர்",
-            reach_us: "எங்களை அணுகுக", connect_title: "வழிகாட்டுதலுக்கும் ஆலோசனைக்கும் இணையுங்கள்",
-            first_name: "உங்கள் முதல் பெயர்", last_name: "உங்கள் குடும்ப பெயர்",
-            email: "உங்கள் மின்னஞ்சல்", phone: "உங்கள் தொடர்பு எண்",
-            message: "உங்கள் கேள்வியைப் பகிரவும்", submit_btn: "ஆலோசனை கோருக",
-            mobile_label: "அலைபேசி", location_label: "இருப்பிடம்",
-            footer_address: "MIG-5 தரை தளம், 6வது குறுக்கு சாலை, ஆசிரியர் காலனி, ஹோசூர்",
-            follow_us: "பின்தொடரவும்", quick_link: "விரைவு இணைப்புகள்", our_services: "எங்கள் சேவைகள்",
-            nav_home: "முகப்பு", nav_about: "எங்களை பற்றி", nav_services: "சேவைகள்",
-            nav_gallery: "கேலரி", nav_contact: "தொடர்பு",
-            serv1: "பொது அறிக்கை", serv2: "குடும்பம் & நிதி",
-            serv3: "உடன்பிறப்புகள் & தைரியம்", serv4: "தாய் & ஆறுதல்",
-            serv5: "கடன், நோய் & வழக்கு", serv6: "திருமணம்",
-            serv7: "நீண்ட ஆயுள்", serv8: "ஆன்மீகம் & அதிர்ஷ்டங்கள்",
-            serv9: "தொழில்", serv10: "செலவு & இழப்புகள்"
-        },
-        hi: {
-            contact_span: "संपर्क", contact_us_text: "करें",
-            home_breadcrumb: "होम", contact_breadcrumb: "संपर्क करें",
-            contact_heading: "संपर्क करें", location_heading: "स्थान",
-            address_text: "MIG-5 ग्राउंड फ्लोर, छठा क्रॉस, टीचर्स कॉलोनी, होसुर",
-            reach_us: "हमसे संपर्क करें", connect_title: "मार्गदर्शन और परामर्श के लिए जुड़ें",
-            first_name: "आपका पहला नाम", last_name: "आपका अंतिम नाम",
-            email: "आपका ईमेल पता", phone: "आपका संपर्क नंबर",
-            message: "अपनी चिंता या प्रश्न साझा करें", submit_btn: "परामर्श का अनुरोध करें",
-            mobile_label: "मोबाइल", location_label: "स्थान",
-            footer_address: "MIG-5 ग्राउंड फ्लोर, छठा क्रॉस, टीचर्स कॉलोनी, होसुर",
-            follow_us: "फॉलो करें", quick_link: "त्वरित लिंक", our_services: "हमारी सेवाएँ",
-            nav_home: "होम", nav_about: "हमारे बारे में", nav_services: "सेवाएँ",
-            nav_gallery: "गैलरी", nav_contact: "संपर्क करें",
-            serv1: "सामान्य रिपोर्ट", serv2: "परिवार और वित्त",
-            serv3: "भाई-बहन और साहस", serv4: "माँ और सुख",
-            serv5: "ऋण, रोग और मुकदमेबाजी", serv6: "विवाह",
-            serv7: "दीर्घायु", serv8: "आध्यात्मिक प्राप्ति",
-            serv9: "व्यवसाय", serv10: "व्यय और हानियाँ"
-        },
-        kn: {
-            contact_span: "ಸಂಪರ್ಕ", contact_us_text: "ಮಾಡಿ",
-            home_breadcrumb: "ಮುಖಪುಟ", contact_breadcrumb: "ಸಂಪರ್ಕಿಸಿ",
-            contact_heading: "ಸಂಪರ್ಕಿಸಿ", location_heading: "ಸ್ಥಳ",
-            address_text: "MIG-5 ನೆಲ ಮಹಡಿ, 6 ನೇ ಅಡ್ಡ, ಟೀಚರ್ಸ್ ಕಾಲೋನಿ, ಹೊಸೂರು",
-            reach_us: "ನಮ್ಮನ್ನು ತಲುಪಿ", connect_title: "ಮಾರ್ಗದರ್ಶನ ಮತ್ತು ಸಲಹೆಗಾಗಿ ಸಂಪರ್ಕಿಸಿ",
-            first_name: "ನಿಮ್ಮ ಮೊದಲ ಹೆಸರು", last_name: "ನಿಮ್ಮ ಕೊನೆಯ ಹೆಸರು",
-            email: "ನಿಮ್ಮ ಇಮೇಲ್", phone: "ನಿಮ್ಮ ಸಂಪರ್ಕ ಸಂಖ್ಯೆ",
-            message: "ನಿಮ್ಮ ಕಾಳಜಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ", submit_btn: "ಸಲಹೆ ವಿನಂತಿಸಿ",
-            mobile_label: "ಮೊಬೈಲ್", location_label: "ಸ್ಥಳ",
-            footer_address: "MIG-5 ನೆಲ ಮಹಡಿ, 6 ನೇ ಅಡ್ಡ, ಟೀಚರ್ಸ್ ಕಾಲೋನಿ, ಹೊಸೂರು",
-            follow_us: "ಅನುಸರಿಸಿ", quick_link: "ತ್ವರಿತ ಲಿಂಕ್", our_services: "ನಮ್ಮ ಸೇವೆಗಳು",
-            nav_home: "ಮುಖಪುಟ", nav_about: "ನಮ್ಮ ಬಗ್ಗೆ", nav_services: "ಸೇವೆಗಳು",
-            nav_gallery: "ಗ್ಯಾಲರಿ", nav_contact: "ಸಂಪರ್ಕಿಸಿ",
-            serv1: "ಸಾಮಾನ್ಯ ವರದಿ", serv2: "ಕುಟುಂಬ & ಹಣಕಾಸು",
-            serv3: "ಒಡಹುಟ್ಟಿದವರು & ಧೈರ್ಯ", serv4: "ತಾಯಿ & ಸೌಕರ್ಯ",
-            serv5: "ಸಾಲ, ರೋಗ & ದಾವೆ", serv6: "ವಿವಾಹ",
-            serv7: "ದೀರ್ಘಾಯುಷ್ಯ", serv8: "ಆಧ್ಯಾತ್ಮಿಕ ಸಾಧನೆ",
-            serv9: "ವೃತ್ತಿ", serv10: "ವೆಚ್ಚ & ನಷ್ಟಗಳು"
-        },
-        te: {
-            contact_span: "సంప్రదించు", contact_us_text: "ండి",
-            home_breadcrumb: "హోమ్", contact_breadcrumb: "సంప్రదించండి",
-            contact_heading: "సంప్రదించండి", location_heading: "ప్రదేశం",
-            address_text: "MIG-5 గ్రౌండ్ ఫ్లోర్, 6వ క్రాస్, టీచర్స్ కాలనీ, హోసూర్",
-            reach_us: "మమ్మల్ని చేరుకోండి", connect_title: "మార్గదర్శకత్వం & సంప్రదింపుల కోసం కనెక్ట్ అవ్వండి",
-            first_name: "మీ మొదటి పేరు", last_name: "మీ చివరి పేరు",
-            email: "మీ ఇమెయిల్", phone: "మీ సంప్రదింపు నంబర్",
-            message: "మీ ప్రశ్నను పంచుకోండి", submit_btn: "సంప్రదింపును అభ్యర్థించండి",
-            mobile_label: "మొబైల్", location_label: "ప్రదేశం",
-            footer_address: "MIG-5 గ్రౌండ్ ఫ్లోర్, 6వ క్రాస్, టీచర్స్ కాలనీ, హోసూర్",
-            follow_us: "ఫాలో అవ్వండి", quick_link: "త్వరిత లింక్", our_services: "మా సేవలు",
-            nav_home: "హోమ్", nav_about: "మా గురించి", nav_services: "సేవలు",
-            nav_gallery: "గ్యాలరీ", nav_contact: "సంప్రదించండి",
-            serv1: "సాధారణ నివేదిక", serv2: "కుటుంబం & ఫైనాన్స్",
-            serv3: "తోబుట్టువులు & ధైర్యం", serv4: "తల్లి & సౌకర్యాలు",
-            serv5: "అప్పులు, వ్యాధి & దావా", serv6: "వివాహం",
-            serv7: "దీర్ఘాయువు", serv8: "ఆధ్యాత్మిక సాధన",
-            serv9: "వృత్తి", serv10: "ఖర్చు & నష్టాలు"
-        }
-    };
-
-    // Function to apply translation
-    function setLanguage(lang) {
-        const t = translations[lang];
-        if (!t) return;
-        
-        // Update all elements with data-key attribute
-        document.querySelectorAll('[data-key]').forEach(el => {
-            const key = el.getAttribute('data-key');
-            if (t[key]) {
-                el.textContent = t[key];
-            }
-        });
-        
-        // Update all placeholders
-        document.querySelectorAll('[data-placeholder-key]').forEach(el => {
-            const key = el.getAttribute('data-placeholder-key');
-            if (t[key]) {
-                el.placeholder = t[key];
-            }
-        });
-        
-        // Save to localStorage
-        localStorage.setItem('preferred_language', lang);
-        
-        // Update active button style
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            if (btn.getAttribute('data-lang') === lang) {
-                btn.classList.add('active');
-            } else {
-                btn.classList.remove('active');
-            }
-        });
-    }
-
-    // Add click event to language buttons
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.addEventListener('click', function() {
-            const lang = this.getAttribute('data-lang');
-            setLanguage(lang);
-        });
-    });
-
-    // Load saved language on page load
-    const savedLang = localStorage.getItem('preferred_language');
-    if (savedLang && translations[savedLang]) {
-        setLanguage(savedLang);
-    } else {
-        setLanguage('en');
-    }
-    </script>
-    
-      <script>
+        <!-- Start Back To Up Area -->
+		<button type="button" id="backtotop"> 
+			<i class="ti ti-arrow-narrow-up"></i>
+		</button>
+		<!-- End Back To Up Area -->
+     
+        <!-- Link Of JS File -->
+        <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/scrollCue.min.js"></script>
+        <script src="assets/js/fslightbox.js"></script>
+        <script src="assets/js/ukiyo.min.js"></script>
+        <script src="assets/js/lenis.js"></script>
+        <script src="assets/js/custom.js"></script>
+            <script>
   const toggleBtn = document.getElementById("callToggle");
   const enquiryBox = document.getElementById("enquiryBox");
 
@@ -714,7 +583,7 @@
   enquiryBox.classList.toggle("show");
 });
 </script>
-</body>
+    </body>
 
-<!-- Mirrored from html.awaikenthemes.com/lenity/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 May 2026 11:44:06 GMT -->
+<!-- Mirrored from templates.hibootstrap.com/oldero/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 May 2026 04:50:56 GMT -->
 </html>
